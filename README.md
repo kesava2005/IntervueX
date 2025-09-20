@@ -31,14 +31,6 @@ It provides curated questions, AI-powered answers, and a modern UI to make inter
 ### AI Integration
 - 🤖 Google Gemini API for intelligent Q&A  
 
----
-
-## 📂 Project Structure
-
-<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/7ff9e92c-ec5b-4616-8c2a-151d2cdaf125" />
-
----
-
 # Clone the repo
 git clone https://github.com/your-username/InterveuX.git
 cd InterveuX
