@@ -32,7 +32,7 @@ It provides curated questions, AI-powered answers, and a modern UI to make inter
 - 🤖 Google Gemini API for intelligent Q&A  
 
 # Clone the repo
-git clone https://github.com/your-username/InterveuX.git
+git clone https://github.com/kesava2005/InterveuX.git
 cd InterveuX
 
 # Setup backend
