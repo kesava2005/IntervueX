@@ -35,52 +35,29 @@ It provides curated questions, AI-powered answers, and a modern UI to make inter
 
 ## 📂 Project Structure
 
-InterveuX/
-├── Backend/ # Node.js + Express API
-│ ├── routes/ # API routes
-│ ├── models/ # MongoDB schemas
-│ └── server.js # Backend entry
-│
-├── Frontend/ # React + Vite frontend
-│ ├── src/components/ # UI components
-│ ├── src/pages/ # Page components
-│ └── src/App.jsx # App entry
-│
-└── README.md # Documentation
-
-yaml
-Copy code
+<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/7ff9e92c-ec5b-4616-8c2a-151d2cdaf125" />
 
 ---
 
-## ⚙️ Installation & Setup
-
-### 1. Clone the repository
-```bash
+# Clone the repo
 git clone https://github.com/your-username/InterveuX.git
 cd InterveuX
-### 2. Backend setup
-bash
-Copy code
+
+# Setup backend
 cd Backend
 npm install
 npm start
-### 3. Frontend setup
-bash
-Copy code
+
+# Setup frontend
 cd ../Frontend
 npm install
 npm run dev
-🔑 Environment Variables
-Create a .env file in both Backend and Frontend folders with:
 
-env
-Copy code
-# Backend
+# Create .env in Backend
 MONGO_URI=your_mongo_connection_string
 PORT=5000
 GEMINI_API_KEY=your_gemini_key
 JWT_SECRET=your_secret_key
 
-# Frontend (Vite)
+# Create .env in Frontend
 VITE_API_URL=http://localhost:5000
